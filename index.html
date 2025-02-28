@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Retrô de Pedra, Papel e Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pedra, Papel e Tesoura</h1>
+
+        <div class="placar">
+            <p>VOCÊ: <span id="pontuacao-jogador">00</span></p>
+            <p>CPU: <span id="pontuacao-maquina">00</span></p>
+        </div>
+
+        <div class="escolhas">
+            <div class="escolha" id="pedra">👊</div>
+            <div class="escolha" id="papel">✋</div>
+            <div class="escolha" id="tesoura">✌️</div>
+        </div>
+
+        <div class="resultado" id="resultado">
+            <p class="retro-text">SELECIONE SUA JOGADA!</p>
+        </div>
+
+        <button class="resetar" id="resetar">Reiniciar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
